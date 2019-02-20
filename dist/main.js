@@ -115,7 +115,7 @@ eval("module.exports = `App init`;\r\n\n\n//# sourceURL=webpack:///./src/constan
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var $ = __webpack_require__ (/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\r\nvar str = __webpack_require__(/*! ./constant */ \"./src/constant.js\");\r\n\r\n\r\nvar App = function () {\r\n  console.log(str);\r\n};\r\n$('body').html(str);\r\nvar app = new App();\r\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("const $ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\r\nconst str = __webpack_require__(/*! ./constant */ \"./src/constant.js\");\r\n\r\nconst App = function () {\r\n  console.log(str);\r\n  $('body').html(str);\r\n};\r\n\r\nconst app = new App();\r\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
